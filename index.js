@@ -2,7 +2,7 @@ require("dotenv").config();
 require("./model");
 const express = require("express");
 const app = express();
-
+app.use(express.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static("./public/css/"));
 const homeRoute = require("./routes/homeRoute");
