@@ -7,3 +7,6 @@ exports.register = (req, res) => {
 exports.getLogin = (req, res) => {
   res.render("auth/login");
 };
+exports.getForgotPassword = (req, res) => {
+  res.render("auth/forgetPassword");
+};
