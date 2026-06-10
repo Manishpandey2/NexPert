@@ -1,3 +1,5 @@
+require("dotenv").config();
+require("./model");
 const express = require("express");
 const app = express();
 
