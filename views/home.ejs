@@ -9,18 +9,8 @@
 </head>
 <body>
 
-<nav>
-    <div class="logo">NexPert</div>
-
-    <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Questions</a></li>
-        <li><a href="#">Experts</a></li>
-        <li><a href="#">Categories</a></li>
-    </ul>
-
-    <button class="btn btn-primary" onclick="window.location.href='/register'">Join Now</button>
-</nav>
+<!-- Nav Bar -->
+ <%- include("./components/navbar") %>
 
 <section class="hero">
     <div class="hero-content">
@@ -128,9 +118,7 @@
     </button>
 </section>
 
-<footer>
-    <p>© 2026 NexPert. All Rights Reserved.</p>
-</footer>
-
+<!-- Footer  -->
+<%- include("./components/footer") %>
 </body>
 </html>
